@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/danger.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/danger.py" }
+  ]
+}
